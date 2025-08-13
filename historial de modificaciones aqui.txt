@@ -1,4 +1,8 @@
 1. En el archivo de "application.properties", se define las líneas para conectar con la base de datos, usuario, pass
 URL, jpa.
 
-2.
+En el modelo Usuario:
+
+-En la linea 5, se corrige un error en sintaxis en la palabra @Entity.
+-En la linea 10, se completa la instrucción GenerationType.IDENTITY.
+-En la linea 11, se corrige el texto @Column.

@@ -1,0 +1,4 @@
+1. En el archivo de "application.properties", se define las líneas para conectar con la base de datos, usuario, pass
+URL, jpa.
+
+2.

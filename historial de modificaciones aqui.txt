@@ -6,3 +6,8 @@ En el modelo Usuario:
 -En la linea 5, se corrige un error en sintaxis en la palabra @Entity.
 -En la linea 10, se completa la instrucción GenerationType.IDENTITY.
 -En la linea 11, se corrige el texto @Column.
+-En la linea 17, se corrige el texto @Column.
+-Se crea el Enum TipoUsuario.
+
+
+

@@ -9,5 +9,14 @@ En el modelo Usuario:
 -En la linea 17, se corrige el texto @Column.
 -Se crea el Enum TipoUsuario.
 
+En el modelo Docente:
+
+-En la fila 8, se corrige error de sintaxis en el @Id.
 
 
+
+En el modelo Curso:
+
+-En la fila 7, se corrige error en sintaxis.
+-En la fila 9, se corrige error de sintaxis en @GeneratedValue.
+-En la fila 14, se agrega ; al final de la variable.

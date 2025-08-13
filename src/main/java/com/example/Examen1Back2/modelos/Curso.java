@@ -2,18 +2,17 @@ package com.example.Examen1Back2.modelos;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
+
+import static jakarta.persistence.GenerationType.IDENTITY;
+
 @Entity
 public class Curso {
 
-    @I
-    @Ge(strategy = IDENTITY)
+    @Id
+    @GeneratedValue(strategy = IDENTITY)
     private Integer id;
-    private String nombre
+    private String nombre;
 
-    @ManyToOne
-    @JoinColumn(name="fk_docente", referencedColumnName = "id");
-    @JsonBackReference(value = "docente-curso")
-    Docente docente
 
     public Curso() {
     }

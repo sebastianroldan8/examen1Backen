@@ -13,8 +13,6 @@ En el modelo Docente:
 
 -En la fila 8, se corrige error de sintaxis en el @Id.
 
-
-
 En el modelo Curso:
 
 -En la fila 7, se corrige error en sintaxis.
